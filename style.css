@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  background: linear-gradient(to bottom, #f3f0ed, #d3c9c0);
+}
+
+/* div,
+section,
+nav {
+  border: 1px solid black;
+} */
+
+/*  header area */
+
+header {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.intro {
+  width: 50%;
+  padding: 3% 6% 1%;
+  height: 100%;
+  /* font-family: 'Architects Daughter', cursive; */
+}
+
+header .content h1 {
+  font-size: 45px;
+  font-family: 'Courgette', cursive;
+  color: #723e31;
+}
+
+header .content p {
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+  color: #d9b18e;
+}
+
+.navbar {
+  list-style-type: none;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 3% 6% 1%;
+  font-size: 25px;
+  font-family: 'Caveat', cursive;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  color: #723e31;
+}
+
+/* about me section */
+.about-me-area {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.about {
+  width: 50%;
+  height: 500px;
+  /* border: none; */
+}
+
+.about-me {
+  background-image: url('img/BrushStroke.png');
+  background-size: cover;
+}
+
+.about-me-content {
+  width: 70%;
+  margin: 120px auto 0;
+}
+
+.about-me-content h1 {
+  font-size: 40px;
+  font-family: 'Courgette', cursive;
+  color: #723e31;
+}
+.about-me-content p {
+  margin-top: 50px;
+  font-size: 30px;
+  /* font-family: 'Lobster', cursive; */
+  font-family: 'Caveat', cursive;
+  font-weight: 500;
+  color: #723e31;
+}
+
+.about-me-img {
+  width: 20%;
+  background-image: url('img/circles.png');
+  background-size: cover;
+}
