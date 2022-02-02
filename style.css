@@ -5,7 +5,7 @@
 }
 body,
 html {
-  height: 100%;
+  /* height: 100%; */
   background: linear-gradient(to bottom, #f3f0ed, #d3c9c0);
 }
 
@@ -102,5 +102,53 @@ a {
 .about-me-img {
   width: 20%;
   background-image: url('img/circles.png');
+  background-size: cover;
+}
+
+/* skills section */
+.skills {
+  width: 100%;
+  height: 500px;
+  padding: 50px;
+}
+
+.my-skills {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+
+.skill {
+  width: 20%;
+  height: 350px;
+  background-color: #eee7e0;
+}
+
+.skill h2 {
+  font-family: 'Courgette', cursive;
+  color: #855448;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.skill div {
+  width: 90%;
+  margin: 10px auto;
+  height: 270px;
+}
+
+.html-img {
+  background-image: url('img/HTML.jpg');
+  background-size: cover;
+}
+
+.css-img {
+  background-image: url('img/CSS.jpg');
+  background-size: cover;
+}
+
+.js-img {
+  background-image: url('img/JS.jpg');
   background-size: cover;
 }
